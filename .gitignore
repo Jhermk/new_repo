@@ -7,6 +7,10 @@
 # can get very large.
 node_modules
 
+# ignore pnpm-locl.yaml
+
+pnpm-lock.yaml
+
 # .env file is for local use only. It contains
 # values not to be shared and most of the values
 # will be manually created by you or dynamically # created on the hosting server
@@ -14,3 +18,7 @@ node_modules
 
 # .DS_Store is only for Mac users
 **/.DS_Store
+
+# add the README.md
+
+README.md
